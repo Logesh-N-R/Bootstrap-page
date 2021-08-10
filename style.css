@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Georama', sans-serif;
+    color: #222;
+}
+
+.navbar {
+    padding: 0.8rem;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+}
+
+.nav-link {
+    font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.carousel-caption h1 {
+    font-size: 500%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3 {
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+    font-family: fantasy;
+}
+
+
+.btn-primary:hover {
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+    cursor: pointer;
+}
+
+.jumbotron {
+    padding: 1rem;
+    border-radius: 0;
+}
+
+.padding {
+    padding-bottom: 2rem;
+}
+
+.welcome {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.welcome hr {
+    border-top: 2px solid grey;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.fa-code {
+    color: #e54d26
+}
+
+.fa-bold {
+    color: #563d7c;
+}
+
+.fa-css3 {
+    color: #2163af;
+}
+
+.fa-code,
+.fa-css3,
+.fa-bold {
+    font-size: 4em;
+    margin: 1rem;
+}
+
+h1 {
+    font-weight: bolder !important;
+}
+
+h2 {
+    font-weight: bolder !important;
+}
+
+.two-col {
+    margin: 0 auto;
+}
+
+.two-col-sec img {
+    border-radius: 20px;
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+
+.two-col-cont h2 {
+    font-family: cursive;
+    margin-bottom: 3rem;
+    font-size: 30px
+}
+
+.two-col-cont button {
+    margin-top: 3rem;
+}
+
+.two-col-cont {
+    margin: auto;
+    padding: 40px;
+}
+
+.fun {
+    width: 100%;
+    margin-bottom: 2rem;
+    font-family: monospace;
+}
+
+.gif {
+    max-width: 100%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.card {
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.social-h {
+    margin-bottom: 20px;
+}
+
+.social a {
+    font-size: 4.5em;
+    padding: 3rem;
+    box-sizing: border-box;
+}
+
+.fa-facebook {
+    color: #3b5998
+}
+
+.fa-github-square {
+    color: black;
+}
+
+.fa-envelope-open {
+    color: #dd4b39;
+}
+
+.fa-whatsapp {
+    color: #42e857;
+}
+
+.fa-whatsapp:hover,
+.fa-envelope-open:hover,
+.fa-facebook:hover,
+.fa-github-square:hover {
+    color: grey;
+}
+
+footer img {
+    border-radius: 40%;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+
+hr.light {
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin: 10px auto;
+}
+
+footer h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer a {
+    color: #d5d5d5;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+
+hr.light-100 {
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin: 10px auto;
+}
+
+@media (max-width: 992px) {
+    .social a {
+        font-size: 3em;
+        padding: 1.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-caption {
+        position: absolute;
+        top: 45%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 350%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .5rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 80%;
+        padding: 8px 14px;
+    }
+
+    .display-4 {
+        font-size: 200%;
+    }
+
+    .social a {
+        font-size: 2.5em;
+        padding: 1.2em;
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel-caption {
+        position: absolute;
+        top: 40%;
+    }
+
+    .carousel-caption h1 {
+        font-size: 250%;
+    }
+
+    .carousel-caption h3 {
+        font-size: 110%;
+        font-weight: 400;
+        padding-bottom: .5rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 70%;
+        padding: 4px 8px;
+    }
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    .social a {
+        font-size: 2em;
+        padding: .7em;
+    }
+}
